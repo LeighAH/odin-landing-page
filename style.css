@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Roboto, Arial, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F9FAF8;
+}
+
+.header-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer-container {
+    flex: 1;
+    max-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.nav .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav ul {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.title h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.title p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 24px;
+    text-align: center;
+}
+
+.info-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-container h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.quote-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    width: 800px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.attribution {
+    width: 800px;
+    text-align: right;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex: 1;
+
+    width: 1000px;
+}
+
+.action-container button {
+    border: 2px solid #F9FAF8;
+}
+
+.action-box {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 6px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.nav .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.nav ul {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 16px;
+}
+
+.header {
+    display: flex;
+    gap: 32px;
+    padding: 70px 0;
+}
+
+.header h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.header p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 8px;
+}
+
+.title {
+    width: 450px;
+}
+
+.title-image {
+    background-color: gray;
+    width: 500px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-style: none;
+    border-radius: 6px;
+    padding: 6px 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 110px;
+}
+
+.card img {
+    border: 2px solid #3882F6;
+    border-radius: 6px;
+    width: 106px;
+    height: 100px;
+}
+
+.card p {
+    font-size: 12px;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    flex: 1;
+    background-color: #E5E7EB;
+}
+
+.action-container {
+    display: flex;
+    flex: 1;
+    background-color: #3882F6;
+} */
