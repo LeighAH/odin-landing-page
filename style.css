@@ -48,7 +48,12 @@ body {
 
 .nav ul {
     display: flex;
-    gap: 16px;
+    gap: 24px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav ul a {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -63,8 +68,9 @@ body {
 .title {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex: 1;
-    gap: 8px;
+    gap: 16px;
     max-width: 450px;
 }
 
@@ -123,7 +129,7 @@ button {
 
 .card img {
     width: 170px;
-    height: 160px;
+    height: 170px;
     border: 4px solid #3882F6;
     border-radius: 18px;
 }
